@@ -10,7 +10,7 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 public class MessageSender {
   public static void main(String[] args) {
-    Twilio.init("AC93134cdb12642147f0a0346512b0f50b", "0a2fad8780686c182b9d5715183bf97b");
+    Twilio.init("YOUR USERNAME", "YOUR PASSWORD");
     sendTextMsgTpl();
 //    sendMediaWithText();
 //    sendMedia();
